@@ -17,7 +17,7 @@ header h1 a{
     transition: .3s;
 }
 header h1 a:hover {
-    color:#FF1515;
+    color:#2dceff;
 }
 header ul {
     float: right;
@@ -30,7 +30,7 @@ header ul li a {
     transition: .3s;
 }
 header ul li a:hover {
-    color: #FF1515;
+    color: #2dceff;
 }
 a {
     text-decoration: none;
@@ -61,13 +61,12 @@ a {
     bottom: 0;
     left: -300px;
     width: 300px;
-    background-color: rgba(21, 123, 255, 9
-    );
+    background-color: #fff;
     transition: .3s;
     z-index: 9999;
 }
 .sidebar ul li a{
-    color: #fff;
+    color: #000;
 }
 .sidebar ul li {
     padding: 24px;
@@ -75,13 +74,17 @@ a {
     transition-property: background-color;
 }
 .sidebar ul li:hover {
-    background-color: #FF6B6B;
+    background-color: #2dceff;
 }
 #check:checked ~ .sidebar {
     left: 0;
 }
-.banner {
+/* .banner {
     background-color: #2D90FF;
+    padding: 150px 0;
+} */
+.banner {
+    background-color: #2dceff;
     padding: 150px 0;
 }
 section {
@@ -120,7 +123,7 @@ section h3::after {
     bottom: -1px;
     width: 40px;
     height: 4px;
-    background-color: #FF1515;
+    background-color: #2dceff;
     left: calc(50% - 20px);
 }
 #about p {
@@ -129,25 +132,30 @@ section h3::after {
     line-height: 25px;
     margin-bottom: 15px;
 }
-#skills,
+#about {
+    background-color: #fff;
+}
+#skills {
+    background-color: #fff;
+}
 #contact {
     background-color: #f9f9f9;
 }
 #skills .bar {
     height: 30px;
     background-color: #fff;
-    border:1px solid #ddd;
+    border:1px solid #dddddd;
     margin: 5px 0 20px 0;
 }
 .bar .nilai {
     height: 30px;
-    background-color: #f84744;
+    background-color: #14c522;
     display: inline-block;
     color: #fff;
     text-align: center;
 }
 .singing {
-    width: 80%;
+    width: 100%;
 }
 .programing {
     width: 30%;
@@ -156,10 +164,10 @@ section h3::after {
     width: 90%;
 }
 .game {
-    width: 75%;
+    width: 90%;
 }
 .sport {
-    width: 85%;
+    width: 75%;
 }
 .col-4 {
     width: 20%;
@@ -190,7 +198,7 @@ section h3::after {
     
 }
 footer {
-    background-color: #333;
+    background-color: #838181;
     padding: 50px;
     text-align: center;
 }

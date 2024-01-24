@@ -1,4 +1,4 @@
-const txtElement = ['Gamer', 'Vokalis', 'Airsofters'];
+const txtElement = ['Sapta', 'suka bermain game', ' suka menyanyi', 'suka bermain bola'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
